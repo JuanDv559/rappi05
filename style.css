@@ -1,0 +1,144 @@
+
+*{margin:0;
+  padding:0;
+  box-sizing:content-box}
+
+/*index.html*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(119, 193, 196);
+}
+header, footer, nav, section, article {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+header {
+    /*backgroun;*/
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    /*backgr;*/
+    padding: 10px;
+    overflow: hidden;
+    height: 12%;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+    float: left;
+    padding-top: 30px;
+
+}
+nav a:hover{color:red;}
+nav img {
+    height: 80px;
+    max-height: 100%;
+    float: right;
+}
+.banner {
+    /*width: 100%;*/
+    height: 200px;
+    margin-bottom: 20px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.content {
+    overflow: hidden; /* Clear floats */
+}
+.content article {
+    float: left;
+    width: 60%; /* Adjust as needed */
+}
+.content aside {
+    float: right;
+    width: 30%; /* Adjust as needed */
+}
+.content aside img {
+    width: 100%;
+    height: auto;
+    /*background-color: #e0e0e0;*/
+}
+footer {
+    text-align: center;
+    /*backgroun;*/
+}
+
+header,footer,nav{background-color: lightblue;}
+
+
+/*contact*/
+.contact{display:flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*information*/
+
+.content table{
+    min-height: 100vh;
+    ;
+    border: 2px solid red;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+
+thead{
+  display:flex;
+  justify-content: center;
+
+
+    background-color: gray;
+    width:90%;
+    border:2px solid red;
+
+  
+}
+
+
+/*about us*/
+.abt{
+    display:flex;
+    gap :5%;
+    padding:2%;
+ 
+    
+}
+.about_us{height: 35vh;
+          width: 25vw;
+        }
+
+
+
+
+
+
+
+
+/*bennefits and tipts*/
+
+.benefits_and_tips{display:flex;
+}
+
+.img_benefits_and_tips{height: 30vh;
+width:30vh;
+object-fit: cover;}
